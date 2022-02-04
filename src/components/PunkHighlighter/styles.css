@@ -1,0 +1,78 @@
+.punk-highlighter-container {
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+.selected-punk-image-container {
+    min-width: 20em;
+    max-height: 32em;
+}
+.selected-punk-image-container img {
+    width: 100%;
+    border-radius: 20px;
+}
+.selected-punk-metadata {
+    color: white;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 32em;
+    flex: 1;
+}
+.punk-details {
+    height: 50%;
+    padding-bottom: 5em;
+}
+.punk-details .name {
+    font-size: 6em;
+    font-weight: 900;
+}
+.punk-details .id {
+    font-size: 4em;
+    color: #a1a5b0;
+    font-weight: bold;
+    margin-left: 0.2em;
+}
+.owner-details {
+    display: flex;
+    height: 50%;
+    max-width: 100vw;
+    width: auto;
+    justify-content: space-between;
+}
+.owner-details .owner-info {
+    display: flex;
+}
+.owner-image-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owner-image-container img {
+    width: 4em;
+    border-radius: 50%;
+}
+.owner-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5em;
+}
+.owner-data .owner-address {
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+.owner-data .owner-name {
+    color: #cb65ed;
+}
+.owner-contact {
+    display: flex;
+    align-items: center;
+}
+.owner-contact img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}

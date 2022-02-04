@@ -1,0 +1,15 @@
+.punkList {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    margin: 2em;
+    overflow: scroll;
+    padding-bottom: 2em;
+    border-bottom: 1px solid white;    
+}
+.punkList::-webkit-scrollbar {
+    display: none;
+}
+.scroll-snap-align {
+    scroll-snap-align: start;
+}

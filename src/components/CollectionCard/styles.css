@@ -1,0 +1,40 @@
+.collection-card {
+    width: 20em;
+    height: 30em;
+    background-color: #1c1f1f;
+    border-radius: 2em;
+    color: white;
+    margin: 2em 2em 0 0;
+}
+.card-image-container {
+    width: 100%;
+}
+.card-image-container img{
+    width: 20em;
+    aspect-ratio: 1;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+.metadata {
+    margin: 1em;
+}
+.metadata .details{
+    font-weight: bold;
+}
+.metadata .details .name {
+    font-size: 1.3em;
+}
+.metadata .details .id {
+    color: #a1a5b0;
+    font-size: 1.15em;
+}
+.metadata .price-container {
+    margin: 1em 0;
+    display: flex;
+}
+.metadata .price-container img{
+    width: 1em;
+}
+.metadata .price-container .price{
+    margin-left: 0.5em;
+}
