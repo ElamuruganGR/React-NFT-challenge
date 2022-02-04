@@ -12,9 +12,13 @@ function App() {
   const [error, setError] = useState("");
   const [selectedPunk, setSelectedPunk] = useState(0);
   useEffect(() => {
+    const headers = {
+      'Access-Control-Allow-Origin': '*'
+    };
     axios
       .get(
-        "https://testnets-api.opensea.io/assets?asset_contract_address=0xb94e6bF1248F9fF9eb15A6B74d7008170de61E0a&order_direction=asc"
+        "https://testnets-api.opensea.io/assets?asset_contract_address=0xb94e6bF1248F9fF9eb15A6B74d7008170de61E0a&order_direction=asc",
+        {headers}
       )
       .then((res) => {
         setPunks(res.data.assets);
