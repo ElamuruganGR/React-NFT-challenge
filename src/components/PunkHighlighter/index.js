@@ -31,7 +31,7 @@ export const PunkHighlighter = ({ activePunk }) => {
               </div>
             </div>
           </div>
-          <div className="owner-contact-info">
+          <div className="owner-contact">
                 <img src={Instagram} alt={"instagram"} />
                 <img src={Twitter} alt={"twitter"} />
                 <img src={More} alt={"more"} />
